@@ -1,3 +1,17 @@
+# chacha32go
+
+A lightweight Go implementation of the ChaCha32 stream cipher.  
+Compatible with C and Arduino versions – designed for secure communication between microcontrollers and Go backends.
+
+## 📦 Installation
+
+```bash
+go get github.com/regimantas/chacha32go/chacha32
+```
+
+## 🔐 Usage example
+
+```go
 package main
 
 import (
@@ -40,3 +54,8 @@ func main() {
     // Print decrypted text
     fmt.Printf("Decrypted: %s\n", decrypted)
 }
+```
+
+## 📄 License
+
+MIT
