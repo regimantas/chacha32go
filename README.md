@@ -96,12 +96,12 @@ func main() {
 
 ---
 
-## 🔗 Compatible Arduino Library
+## 🔗 Compatible Libraries
 
-**[ChaCha32Arduino – Arduino compatible library](https://github.com/regimantas/ChaCha32Arduino/)**
+- **[ChaCha32Arduino – Arduino compatible library](https://github.com/regimantas/ChaCha32Arduino/)**
+- **[chacha32-c – C compatible library](https://github.com/regimantas/chacha32-c/)**
 
 ---
-
 
 ## 📄 License
 
