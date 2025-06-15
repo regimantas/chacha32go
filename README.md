@@ -56,6 +56,40 @@ func main() {
 }
 ```
 
+---
+
+## 🟢 Minimal usage example
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/regimantas/chacha32go/chacha32"
+)
+
+func main() {
+    key := make([]byte, 32)   // 32 zero bytes
+    nonce := make([]byte, 12) // 12 zero bytes
+    message := []byte("Hello, world!")
+
+    ciphertext := chacha32.Encrypt(key, nonce, message)
+    decrypted := chacha32.Decrypt(key, nonce, ciphertext)
+
+    fmt.Printf("Encrypted: %x\n", ciphertext)
+    fmt.Printf("Decrypted: %s\n", decrypted)
+}
+```
+
+---
+
+## 🔗 Compatible Arduino Library
+
+**[ChaCha32Arduino – Arduino/C compatible library](https://github.com/regimantas/ChaCha32Arduino/)**
+
+---
+
+
 ## 📄 License
 
 MIT
