@@ -1,6 +1,6 @@
 # chacha32go
 
-A lightweight Go implementation of the ChaCha32 stream cipher.  
+A lightweight Go implementation of the ChaCha32 stream encryption.  
 Compatible with C and Arduino versions – designed for secure communication between microcontrollers and Go backends.
 
 ## 📦 Installation
